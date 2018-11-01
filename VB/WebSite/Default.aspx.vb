@@ -28,7 +28,7 @@ End Class
 Friend Class ReadOnlyTemplate
     Implements ITemplate
 
-    Public Sub InstantiateIn(ByVal _container As Control)
+    Public Sub InstantiateIn(ByVal _container As Control) Implements ITemplate.InstantiateIn
         Dim container As GridViewEditItemTemplateContainer = TryCast(_container, GridViewEditItemTemplateContainer)
 
         Dim lbl As New ASPxLabel()
