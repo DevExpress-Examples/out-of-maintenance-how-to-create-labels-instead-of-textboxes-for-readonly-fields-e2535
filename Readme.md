@@ -1,4 +1,7 @@
 # How to create labels instead of textboxes for readonly fields
+<!-- run online -->
+**[[Run Online]](https://codecentral.devexpress.com/e2535/)**
+<!-- run online end -->
 
 
 <p>When the ASPxGridView is in Edit mode, sometimes it is required to mark some fields as readonly. Unfortunately, the ReadOnly state might confuse people, because a readonly editor behaves as a regular editor, but it cannot be edited. It is useful to emphasize the readonly editor by customizing its <a href="http://documentation.devexpress.com/#AspNet/DevExpressWebASPxEditorsReadOnlyStyleMembersTopicAll">ReadOnlyStyle</a> property (for example, you can adjust a control's background color).</p><p>There are other scenarios to emphasize readonly editors. For example, you can replace the ASPxTextBox (created by the ASPxGridView) with the ASPxLabel placed in the <strong>EditItemTemplate</strong>. This example demonstrates how to achieve this functionality.<br />
