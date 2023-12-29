@@ -1,8 +1,3 @@
-<!-- default badges list -->
-![](https://img.shields.io/endpoint?url=https://codecentral.devexpress.com/api/v1/VersionRange/128531464/13.1.4%2B)
-[![](https://img.shields.io/badge/Open_in_DevExpress_Support_Center-FF7200?style=flat-square&logo=DevExpress&logoColor=white)](https://supportcenter.devexpress.com/ticket/details/E2535)
-[![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
-<!-- default badges end -->
 <!-- default file list -->
 *Files to look at*:
 
@@ -10,9 +5,6 @@
 * [Default.aspx.cs](./CS/WebSite/Default.aspx.cs) (VB: [Default.aspx.vb](./VB/WebSite/Default.aspx.vb))
 <!-- default file list end -->
 # How to create labels instead of textboxes for readonly fields
-<!-- run online -->
-**[[Run Online]](https://codecentral.devexpress.com/e2535/)**
-<!-- run online end -->
 
 
 <p>When the ASPxGridView is in Edit mode, sometimes it is required to mark some fields as readonly. Unfortunately, the ReadOnly state might confuse people, because a readonly editor behaves as a regular editor, but it cannot be edited. It is useful to emphasize the readonly editor by customizing its <a href="http://documentation.devexpress.com/#AspNet/DevExpressWebASPxEditorsReadOnlyStyleMembersTopicAll">ReadOnlyStyle</a> property (for example, you can adjust a control's background color).</p><p>There are other scenarios to emphasize readonly editors. For example, you can replace the ASPxTextBox (created by the ASPxGridView) with the ASPxLabel placed in the <strong>EditItemTemplate</strong>. This example demonstrates how to achieve this functionality.<br />
